@@ -1,4 +1,4 @@
-# Software Company Website Template
+# Software Company Website
 
 ![Software Company Website Template](https://image.ibb.co/iNmWDA/website-software-company.jpg)
 
