@@ -1,0 +1,21 @@
+{
+  "name": "software-company-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/avhaymart/Software-Company-Website.git",
+  "author": "avhaymart <avhaymart@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.0.1"
+  },
+  "engines": {
+    "node": "11.0.0"
+  },
+  "scripts": {
+    "install": "(cd client && yarn) && (cd server && yarn)",
+    "start": "concurrently \"cd client && PORT=3000 yarn start\" \"cd server && PORT=3001 yarn start\"",
+    "build": "concurrently \"cd client && yarn build\" \"cd server && yarn build\"",
+    "start:prod": "cd server && yarn start:prod",
+    "heroku-postbuild": "yarn build"
+  }
+}
