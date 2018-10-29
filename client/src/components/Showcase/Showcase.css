@@ -1,0 +1,118 @@
+
+#showcase_div {
+    padding: 100px 15%;
+    margin: 0;
+    border-top: 5px solid #e45555;
+}
+
+.div_heading {
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+    font-family: open sans;
+    font-weight: 300;
+    color: #525252;
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+
+#showcase_list_div {
+    display: flex;
+    flex-wrap:wrap;
+    padding: 0 5%;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.showcase_item_div {
+    padding: 0 30px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.showcase_image_div {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e45555;
+    border-radius: 100%;
+}
+
+.showcase_text_div {
+    align-self: flex-start;
+    padding: 0 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.showcase_text_div h1 {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-family: open sans;
+    font-weight: 300;
+    color: #525252;
+    font-size: 28px;
+    text-align: center;
+}
+
+.div_subheading {
+    color: #525252;
+    font-family: open sans;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 0 15px 0;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 991px) {
+
+    #showcase_list_div {
+        flex-direction: column;
+    }
+    
+    .showcase_item_div {
+        width: auto;
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .showcase_text_div {
+        padding: 20px 0 0 0;
+    }
+    
+    .showcase_text_div p {
+        padding: 0 25%;
+    }
+    
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    #showcase_div {
+        padding: 50px 5%;
+    }
+    
+    .showcase_text_div p {
+        padding: 0;
+    }
+
+    .div_heading {
+        font-size: 28px;
+        padding: 0;
+    }
+    
+    .div_subheading {
+        padding: 0 0 20px 0;
+        margin: 0;
+    }
+}

@@ -1,0 +1,41 @@
+#programs_div {
+    padding: 100px 15%;
+    background-color: #262626;
+    margin: 0;
+}
+
+#programs_list_div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.programs_item_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0 30px;
+}
+
+.programs_item_div img {
+    max-width: 100%;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    #programs_list_div {
+        flex-direction: column;
+    }
+    
+    .programs_item_div {
+        padding: 20px 0;
+    }
+
+    #programs_div {
+        padding: 50px 5%;
+    }
+    
+}
