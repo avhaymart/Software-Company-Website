@@ -8,18 +8,17 @@ class Programs extends Component {
                 <h1 className="div_heading light">Our Programs</h1>
                 <p className="div_subheading light">This is some text inside a div block.</p>
                 <div id="programs_list_div">
-                    <div className="programs_item_div">
-                        <img src="/assets/img/feature_one.jpg" alt="feature one" />
-                        <h1 className="div_heading light">Program One</h1>
-                        <p className="div_subheading light left">Suspendisse potenti. Phasellus elementum sollicitudin ipsum quis interdum. Morbi odio tellus, dictum a posuere id, cursus quis lacus. Mauris lacus ante, commodo a dapibus quis, tincidunt vel dolor.</p>
-                        <a className="button" href="/">Learn more</a>
-                    </div>
-                    <div className="programs_item_div">
-                        <img src="/assets/img/feature_two.jpg" alt="feature two" />
-                        <h1 className="div_heading light">Program Two</h1>
-                        <p className="div_subheading light left">Suspendisse potenti. Phasellus elementum sollicitudin ipsum quis interdum. Morbi odio tellus, dictum a posuere id, cursus quis lacus. Mauris lacus ante, commodo a dapibus quis, tincidunt vel dolor.</p>
-                        <a className="button" href="/">Learn more</a>
-                    </div>
+
+                    {this.props.programs.map((item, i) => {
+                        return (
+                            <div key={i} className="programs_item_div">
+                                <img src={item.image} alt={item.heading} />
+                                <h1 className="div_heading light">{item.heading}</h1>
+                                <p className="div_subheading light left">{item.paragraph}</p>
+                                <a className="button" href={item.href}>Learn more</a>
+                            </div>
+                        )
+                    })}
                 </div>
             </div>
         )

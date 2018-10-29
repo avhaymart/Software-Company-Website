@@ -9,6 +9,7 @@
 #nav_logo_div {
     height: 90px;
     padding-top: 10px;
+    text-align: center;
 }
 
 #nav_logo {
@@ -45,18 +46,12 @@
     color: #e45555;
 }
 
-#nav_img {
-    display: none;
-}
-
 @media only screen and (max-width: 991px) {
-    #nav_list_items_div {
-        display: none;
-    }
-    
-    #nav_img {
-        display: block;
-        height: 40px;
-        padding-top: 25px;
+    #nav_bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-self: stretch;
     }
 }

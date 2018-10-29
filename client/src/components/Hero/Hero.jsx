@@ -6,7 +6,7 @@ class Hero extends Component {
     render() {
         return (
             <div id="hero_div">
-                <Nav />
+                <Nav navItems={this.props.navItems}/>
                 <div id="hero_text_div">
                     <h1>A powerful template in a small package.</h1>
                     <p>This is some text inside a div block.</p>

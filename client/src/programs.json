@@ -1,0 +1,16 @@
+{
+    "programs":[
+        {
+            "image":"/assets/img/feature_one.jpg",
+            "heading":"Program One",
+            "paragraph":"Suspendisse potenti. Phasellus elementum sollicitudin ipsum quis interdum. Morbi odio tellus, dictum a posuere id, cursus quis lacus. Mauris lacus ante, commodo a dapibus quis, tincidunt vel dolor.",
+            "href":"/"
+        },
+        {
+            "image":"/assets/img/feature_two.jpg",
+            "heading":"Program Two",
+            "paragraph":"Suspendisse potenti. Phasellus elementum sollicitudin ipsum quis interdum. Morbi odio tellus, dictum a posuere id, cursus quis lacus. Mauris lacus ante, commodo a dapibus quis, tincidunt vel dolor.",
+            "href":"/"
+        }
+    ]
+}

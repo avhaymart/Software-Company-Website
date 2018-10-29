@@ -7,14 +7,21 @@ import Showcase from './components/Showcase';
 import Programs from './components/Programs';
 import Footer from './components/Footer';
 
+import navItems from './nav.json';
+import programs from './programs.json';
+import showcase from './showcase.json';
+import footer from './footer.json';
+
 class App extends Component {
   render() {
     return (
       <Container>
-        <Hero />
-        <Showcase />
-        <Programs />
-        <Footer />
+        <Hero 
+          navItems={navItems.navItems}
+        />
+        <Showcase showcase={showcase.showcase} />
+        <Programs programs={programs.programs} />
+        <Footer footer={footer}/>
       </Container>
     );
   }

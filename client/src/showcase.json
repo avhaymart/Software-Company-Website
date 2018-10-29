@@ -1,0 +1,25 @@
+{
+    "showcase":[
+        {
+            "image":"/assets/img/code.svg",
+            "heading":"Lightweight",
+            "paragraph":"This template was coded with organised, reliable code to ensure fast load times and optimum usability."
+        },
+        {
+            "image":"/assets/img/touch.svg",
+            "heading":"Responsive",
+            "paragraph":"With the rise of mobile devices, this template is designed to look great on any screen size."
+        },
+        {
+            "image":"/assets/img/dash.svg",
+            "heading":"Clean",
+            "paragraph":"Extra time and throught was taken to produce a design that is free of clutter and wasted space."
+        },
+        {
+            "image":"/assets/img/star.svg",
+            "heading":"Modern",
+            "paragraph":"This template will keep your website looking new and fresh. The most modern design techniques were implemented to make sure your product shines through."
+        }
+        
+    ]
+}
