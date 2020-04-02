@@ -9,7 +9,7 @@
     "concurrently": "^4.0.1"
   },
   "engines": {
-    "node": "11.0.0"
+    "node": "11.15.0"
   },
   "scripts": {
     "install": "(cd client && npm install) && (cd server && npm install)",
