@@ -6,7 +6,7 @@
   "author": "avhaymart <avhaymart@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "concurrently": "^4.0.1"
+    "concurrently": "^4.1.2"
   },
   "engines": {
     "node": "11.0.0"
