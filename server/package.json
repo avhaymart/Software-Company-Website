@@ -12,8 +12,8 @@
     "express": "^4.16.4"
   },
   "devDependencies": {
-    "babel-register": "^6.26.0",
-    "nodemon": "^1.18.5"
+    "babel-register": "6.26.0",
+    "nodemon": "1.18.5"
   },
   "scripts": {
     "start": "nodemon -r babel-register server.js",
