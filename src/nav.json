@@ -1,0 +1,16 @@
+{
+    "navItems":[
+        {
+            "href":"/",
+            "page":"Platforms"
+        },
+        {
+            "href":"/",
+            "page":"Support"
+        },
+        {
+            "href":"/",
+            "page":"Company"
+        }
+    ]
+}

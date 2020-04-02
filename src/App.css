@@ -1,32 +1,51 @@
-.App {
-  text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,400);
+
+a {
+    text-decoration: none;
+    transition: color 0.25s ease;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+a:hover {
+    color: #e45555;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+    margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+    padding: 10px 20px;
+    margin: 0 30px;
+    font-family: montserrat;
+    color: #e2e2e2;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: solid 2px #e2e2e2;
+    border-radius: 25px;
+    transition: opacity 0.25s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button:hover {
+    opacity: 0.5;
+    color: #e2e2e2;
+}
+
+.left {
+    text-align: left !important;
+}
+
+.light {
+    color: #e2e2e2 !important;
+}
+
+.red {
+    color: #e45555 !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .button {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
 }
